@@ -1,0 +1,5 @@
+# Launch File
+.vscode/
+
+# macOS-specific files
+.DS_Store
