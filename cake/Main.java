@@ -13,13 +13,11 @@ import javax.swing.JTextField;
 
 public class Main {
   static ArrayList<Pastel> pasteles = new ArrayList<>();
-  static ArrayList<Ingrediente> ingredientes = new ArrayList<>();
 
-  private static void imprimirMensajeFinal(JFrame frame, JPanel panel, int i, Pastel pastel,GridBagConstraints gbc) {
+  private static void imprimirMensajeFinal(JFrame frame, JPanel panel, int i, Pastel pastel, GridBagConstraints gbc) {
     String mensaje = i + ". " + pastel.getNombre() + " tiene " + pastel.cantidadIngredientes() + " ingredientes y "
         + pastel.cantidadCalorias() + " calorias";
-    JLabel labelMensaje = new JLabel();
-    labelMensaje.setText(mensaje);
+    JLabel labelMensaje = new JLabel(mensaje);
 
     gbc.gridx = 0;
     gbc.gridy = i;
