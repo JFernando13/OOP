@@ -1,4 +1,4 @@
-package robot;
+package composicion.robot;
 
 public class Main {
   public static void printTasks(Robot robot) {

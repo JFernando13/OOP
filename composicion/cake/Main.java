@@ -1,4 +1,4 @@
-package cake;
+package composicion.cake;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;

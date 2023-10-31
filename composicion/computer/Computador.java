@@ -1,4 +1,4 @@
-package computer;
+package composicion.computer;
 
 public class Computador {
   private String marca;

@@ -1,4 +1,4 @@
-package computer;
+package composicion.computer;
 
 public class Memoria {
   private int cantidad;

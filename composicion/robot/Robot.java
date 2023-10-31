@@ -1,4 +1,4 @@
-package robot;
+package composicion.robot;
 
 import java.util.ArrayList;
 

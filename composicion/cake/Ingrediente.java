@@ -1,4 +1,4 @@
-package cake;
+package composicion.cake;
 
 public class Ingrediente {
   private String nombre;

@@ -1,4 +1,4 @@
-package computer;
+package composicion.computer;
 import java.util.ArrayList;
 import java.util.Scanner;
 

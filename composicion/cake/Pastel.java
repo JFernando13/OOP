@@ -1,4 +1,4 @@
-package cake;
+package composicion.cake;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package robot;
+package composicion.robot;
 
 public class Task {
     private String description;
