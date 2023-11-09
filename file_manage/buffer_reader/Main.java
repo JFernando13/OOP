@@ -1,4 +1,4 @@
-package file_manage.ayudita;
+package file_manage.buffer_reader;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ManejoArchivo {
+public class Main {
 
   static void createFile(String nombreArchivo, String contenido) {
     try {
